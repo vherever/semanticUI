@@ -1,4 +1,5 @@
-<div id="mobile_menu" class="ui sidebar teal vertical menu inverted">
+<!-- mobile sidebar version -->
+<div id="mobile_menu" class="ui sidebar teal vertical menu ">
   <a href="index.php" class="item">
     <i class="home icon"></i>
     Home
@@ -16,43 +17,48 @@
     Contact
   </a>
 </div>
+<!-- end -->
 
-<div id="mainHead">
-  <div id="menu" class="ui teal fluid four item pointing menu inverted">
-    <a href="index.php" class="item">
-      <i class="home icon"></i> 
-      Home
-    </a>
-    <a href="about.php" class="item">
-      <i class="user icon"></i> 
-      About
-    </a>
-    <a href="portfolio.php" class="item">
-      <i class="folder outline icon"></i> 
-      Portfolio
-    </a>
-    <a href="contact.php" class="item">
-      <i class="mail icon"></i> 
-      Contact
-    </a>   
-  </div>
-
-  <div id="mobile_btn" class="ui teal labeled icon button">
-    <i class="icon list layout"></i>
-      Menu
+<div id="header">
+<!-- desktop version -->
+  <div id="mainHead">
+    <div id="menu" class="ui teal fluid four item pointing menu ">
+      <a href="index.php" class="item">
+        <i class="home icon"></i> 
+        Home
+      </a>
+      <a href="about.php" class="item">
+        <i class="user icon"></i> 
+        About
+      </a>
+      <a href="portfolio.php" class="item">
+        <i class="folder outline icon"></i> 
+        Portfolio
+      </a>
+      <a href="contact.php" class="item">
+        <i class="mail icon"></i> 
+        Contact
+      </a>   
     </div>
 
-  <div class="ui center aligned icon header inverted huge">
-    <i class="circular smile icon inverted"></i>
-    Get in touch
-  </div>
+    <div id="mobile_btn" class="ui green labeled icon button">
+      <i class="icon list layout"></i>
+        Menu
+    </div>
 
-  <h2 class="ui header inverted">
-    <i class="smile icon"></i>
+    <div class="ui center aligned icon header inverted huge">
+      <i class="circular smile icon inverted"></i>
       Get in touch
     </div>
-  </h2>
 
+    <h2 class="ui header inverted">
+      <i class="smile icon"></i>
+        Get in touch    
+    </h2>
+  </div>
+
+  <!-- end -->
+
+  <img id="mainImg" src="images/background.png" alt="header background" />
 </div>
-<img id="mainImg" src="images/background.png" alt="header background" />
-
+<div id="content"> <!-- the closing div in the footer -->
