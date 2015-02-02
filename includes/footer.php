@@ -32,14 +32,18 @@
 				</a>
 			</div>
 		</div>
+
+<!-- jquery slider in the second column -->
 		<div class="column">
 			<div class="ui horizontal header divider">
 			    <i class="circular quote left icon"></i>			    
 			</div>
-			<p>
-				Semantic has integrations with Angular, Meteor, Ember and many other frameworks to help organize your UI layer alongside your application logic.
-			</p>			
+			<?php include 'includes/slider.php'; ?>
+
 		</div>
+<!-- end -->				
+
+		
 		<div class="column">
 			<div class="ui horizontal header divider">
 			    <i class="circular pencil icon"></i>			    

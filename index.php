@@ -39,7 +39,7 @@
 
 	<div id="side_info1" class="ui red vertical demo sidebar menu">
 	  <div class="item">
-	  	<img src="images/seaside.jpg" class="ui medium rounded image">
+	  	<img src="images/seaside.jpg" class="ui rounded image">
 	  </div>
 	  <div class="item">
 	  	<p>
@@ -50,7 +50,7 @@
 
 	<div id="side_info2" class="ui red vertical demo sidebar menu">
 	  <div class="item">
-	  	<img src="images/tree.png" class="ui medium rounded image">
+	  	<img src="images/tree.png" class="ui rounded image">
 	  </div>
 	  <div class="item">
 	  	<p>
@@ -61,7 +61,7 @@
 
 	<div id="side_info3" class="ui red vertical demo sidebar menu">
 	  <div class="item">
-	  	<img src="images/sky.jpg" class="ui medium rounded image">
+	  	<img src="images/sky.jpg" class="ui rounded image">
 	  </div>
 	  <div class="item">
 	  	<p>

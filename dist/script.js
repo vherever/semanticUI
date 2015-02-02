@@ -45,4 +45,18 @@ $(function() {
   		$('#btn_anim3').transition('pulse');
 	});
 
+
+	//dimmer
+
+	$('#dimmer').hover(function() {
+		$('#dimmer').transition('shake');
+	})
+	
+
+	$('#dimmer').on('click', function() {
+		$('.page.dimmer').dimmer('show');
+	});
 });
+
+
+
