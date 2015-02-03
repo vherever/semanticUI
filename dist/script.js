@@ -56,6 +56,28 @@ $(function() {
 	$('#dimmer').on('click', function() {
 		$('.page.dimmer').dimmer('show');
 	});
+
+	//rating
+	$('.ui.rating').rating({initialRating:3});
+
+	//accordion
+	$('.accordion').accordion({
+		duration: 200,
+		collapsible: false,
+		onOpen: function() {
+			var StepIndex = $(this).attr('data-index');
+			$('.ui.steps div').removeClass('active');
+			$('.ui.steps div:eq('+ StepIndex +')').addClass('active');
+		}
+	});
+
+	$('.ui.steps div').on('click', function() {
+		$('.ui.steps div').removeClass('active');
+		$(this).addClass('active');
+
+		var ind = $(this).index();
+		$('.accordion').accordion('open', ind);
+	});
 });
 
 

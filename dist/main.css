@@ -152,3 +152,28 @@ div.ui.breadcrumb .active.section {
 
 
 .ui.segment h2{ color: #666; }
+
+
+/*portfolio*/
+.label.right i{
+	text-decoration: none;
+}
+
+p.description.portfolio, .accordion p {
+	line-height: 180%;
+	text-align: left;
+	color: #666;
+}
+
+.accordion {
+	margin-top: 20px;
+}
+
+h3 {
+	line-height: 180%;
+	color: #666;
+}
+
+div.active.step {
+	pointer-events: none;
+}
