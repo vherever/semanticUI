@@ -78,6 +78,13 @@ $(function() {
 		var ind = $(this).index();
 		$('.accordion').accordion('open', ind);
 	});
+
+	//checkbox
+	$('.ui.checkbox').checkbox();
+
+	//dropdown
+	$('.dropdown').dropdown();
+	
 });
 
 

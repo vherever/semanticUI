@@ -177,3 +177,16 @@ h3 {
 div.active.step {
 	pointer-events: none;
 }
+
+/*contact*/
+#submit {
+	float: right;
+}
+
+#agree {
+	margin-top: 9px;
+}
+
+#TitleMrMrs {
+	margin-bottom: 1em;
+}
