@@ -12,38 +12,41 @@ $(function() {
 
 	$('#btn_anim1').on('click', function() {
 		$('#shake_img1')
-		  .transition('tada');		  
+		  .transition('tada');
+	  
 	});
 	$('#btn_anim2').on('click', function() {
 		$('#shake_img2')
 		  .transition('bounce');
+
 	});
 	$('#btn_anim3').on('click', function() {
 		$('#shake_img3')
 		  .transition('shake');
+
 	});
 
-	
 	$('#btn_anim1').on('click', function() {
 		$('#side_info1')
   			.sidebar('toggle');
 
-  		$('#btn_anim1').transition('pulse');
+
 	});
 
 	$('#btn_anim2').on('click', function() {
 		$('#side_info2')
   			.sidebar('toggle');
 
-  		$('#btn_anim2').transition('pulse');
+
 	});
 
 	$('#btn_anim3').on('click', function() {
 		$('#side_info3')
   			.sidebar('toggle');
 
-  		$('#btn_anim3').transition('pulse');
+
 	});
+	
 
 
 	//dimmer
@@ -84,6 +87,64 @@ $(function() {
 
 	//dropdown
 	$('.dropdown').dropdown();
+
+	//form validation
+	$('.ui.form')
+  .form({
+    firstName: {
+      identifier  : 'firstName',
+      rules: [
+        {
+          type   : 'empty',
+          prompt : 'Please enter your First Name'
+        }
+      ]
+    },
+    lastName: {
+      identifier  : 'lastName',
+      rules: [
+        {
+          type   : 'empty',
+          prompt : 'Please enter your Last Name'
+        }
+      ]
+    },
+    email: {
+      identifier  : 'email',
+      rules: [
+        {
+          type   : 'empty',
+          prompt : 'Please enter your email'
+        },
+        {
+            type : 'email',
+            prompt : 'please enter a proper email'
+        }
+      ]
+    },
+    message: {
+      identifier  : 'message',
+      rules: [
+        {
+          type   : 'empty',
+          prompt : 'Please enter your Message for Us'
+        }
+      ]
+    },
+    terms: {
+      identifier : 'terms',
+      rules: [
+        {
+          type   : 'checked',
+          prompt : 'You must enable first'
+        }
+      ]
+    }
+  }, {
+    inline : true,
+    on     : 'blur'
+  });
+
 	
 });
 

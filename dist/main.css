@@ -71,6 +71,10 @@ body {
 
 
 
+/*footer*/
+
+
+
 
 
 #footer {
@@ -187,6 +191,6 @@ div.active.step {
 	margin-top: 9px;
 }
 
-#TitleMrMrs {
-	margin-bottom: 1em;
+.ui.corner.label{
+	overflow:hidden;
 }

@@ -1,5 +1,5 @@
 <!-- mobile sidebar version -->
-<div id="mobile_menu" class="ui sidebar teal vertical menu ">
+<div id="mobile_menu" class="ui sidebar orange vertical menu">
   <a href="index.php" class="item">
     <i class="home icon"></i>
     Home
@@ -22,7 +22,7 @@
 <div id="header">
 <!-- desktop version -->
   <div id="mainHead">
-    <div id="menu" class="ui teal fluid four item pointing menu ">
+    <div id="menu" class="ui orange fluid four item pointing menu inverted">
       <a href="index.php" class="item">
         <i class="home icon"></i> 
         Home
@@ -41,13 +41,13 @@
       </a>   
     </div>
 
-    <div id="mobile_btn" class="ui green labeled icon button">
+    <div id="mobile_btn" class="ui orange labeled icon button">
       <i class="icon list layout"></i>
         Menu
     </div>
 
     <div class="ui center aligned icon header inverted huge">
-      <i class="circular smile icon inverted"></i>
+      <i class="circular smile icon inverted teal"></i>
       Get in touch
     </div>
 
