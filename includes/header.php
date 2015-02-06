@@ -47,7 +47,7 @@
     </div>
 
     <div class="ui center aligned icon header inverted huge">
-      <i class="circular smile icon inverted teal"></i>
+      <i class="circular smile icon inverted teal rotate"></i>
       Get in touch
     </div>
 

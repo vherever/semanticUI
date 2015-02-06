@@ -6,6 +6,11 @@
 </head>
 <body rel="3">
 	<?php include'includes/header.php' ?>
+	<div class="ui breadcrumb small">
+		<a href="index.php">Home</a>
+		<i class="icon play divider"></i>
+		<div class="active section">Contact</div>
+	</div>
 		<div class="ui attached blue message center aligned grid">
 			<div class="header">
 				Have you heard about Us before?

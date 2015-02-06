@@ -4,43 +4,36 @@
 		<div class="column">
 		<h4 class="ui header center aligned grid">Check out our stuff</h4>
 			<div class="ui horizontal header divider">
-			    <i class="circular list icon"></i>			    
+			    <i class="circular list icon rotate"></i>			    
 			</div>
 
-			<div class="ui list">
+			<div class="ui divided list">
 			  <div class="item">
-			    <img class="ui avatar image" src="images/doge.png">
+			    <i class="angle double right marker icon"></i>
 			    <div class="content">
-			      <a class="header">Daniel Louise</a>
-			      <div class="description">Last seen watching <a><b>Arrested Development</b></a> just now.</div>
+			      <a class="header">Krowlewskie Jadlo</a>
+			      <div class="description">An excellent polish restaurant, quick delivery and hearty, filling meals.</div>
 			    </div>
 			  </div>
 			  <div class="item">
-			    <img class="ui avatar image" src="images/doge.png">
+			    <i class="angle double right marker icon"></i>
 			    <div class="content">
-			      <a class="header">Stevie Feliciano</a>
-			      <div class="description">Last seen watching <a><b>Bob's Burgers</b></a> 10 hours ago.</div>
+			      <a class="header">Xian Famous Foods</a>
+			      <div class="description">A taste of Shaanxi's delicious culinary traditions, with delights like spicy cold noodles and lamb burgers.</div>
 			    </div>
 			  </div>
 			  <div class="item">
-			    <img class="ui avatar image" src="images/doge.png">
+			    <i class="angle double right marker icon"></i>
 			    <div class="content">
-			      <a class="header">Elliot Fu</a>
-			      <div class="description">Last seen watching <a><b>The Godfather Part 2</b></a> yesterday.</div>
+			      <a class="header">Sapporo Haru</a>
+			      <div class="description">Greenpoint's best choice for quick and delicious sushi.</div>
 			    </div>
 			  </div>
 			  <div class="item">
-			    <img class="ui avatar image" src="images/doge.png">
+			    <i class="angle double right marker icon"></i>
 			    <div class="content">
-			      <a class="header">Jenny Hess</a>
-			      <div class="description">Last seen watching <a><b>Twin Peaks</b></a> 3 days ago.</div>
-			    </div>
-			  </div>
-			  <div class="item">
-			    <img class="ui avatar image" src="images/doge.png">
-			    <div class="content">
-			      <a class="header">Veronika Ossi</a>
-			      <div class="description">Has not watched anything recently</div>
+			      <a class="header">Enid's</a>
+			      <div class="description">At night a bar, during the day a delicious brunch spot.</div>
 			    </div>
 			  </div>
 			</div>
@@ -50,7 +43,7 @@
 		<div class="column">
 		<h4 class="ui header center aligned grid">Testimonials</h4>
 			<div class="ui horizontal header divider">
-			    <i class="circular quote left icon"></i>			    
+			    <i class="circular quote left icon rotate"></i>			    
 			</div>
 			<?php include 'includes/slider.php'; ?>
 
@@ -61,7 +54,7 @@
 		<div class="column">
 		<h4 class="ui header center aligned grid">Get the latest updates via Twitter</h4>
 			<div class="ui horizontal header divider">
-			    <i class="circular pencil icon"></i>			    
+			    <i class="circular pencil icon rotate"></i>			    
 			</div>
 
 			<div class="ui feed small">
@@ -71,7 +64,7 @@
 					</div>
 					<div class="content">
 						<div class="date"><i>Just Now</i></div>
-						<div class="summary"><a href="#">Hello World</a> Blog Post</div>
+						<div class="summary"><a href="#">Doggy Doge: </a> Semantic is Great!</div>
 					</div>
 				</div>
 				<div class="event">
@@ -80,7 +73,16 @@
 					</div>
 					<div class="content">
 						<div class="date"><i>15 min ago</i></div>
-						<div class="summary"><a href="#">Hello World</a> Blog Post</div>
+						<div class="summary"><a href="#">Doggy Doge: </a> Hi, I am dog and I don't mind what am I doing</div>
+					</div>
+				</div>
+				<div class="event">
+					<div class="label">
+						<img src="images/doge.png" alt="Person" />
+					</div>
+					<div class="content">
+						<div class="date"><i>3 days ago</i></div>
+						<div class="summary"><a href="#">Doggy Doge: </a> The very first note</div>
 					</div>
 				</div>
 			</div>

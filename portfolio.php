@@ -6,6 +6,11 @@
 </head>
 <body rel="2">
 	<?php include'includes/header.php' ?>
+	<div class="ui breadcrumb small">
+		<a href="index.php">Home</a>
+		<i class="icon play divider"></i>
+		<div class="active section">Portfolio</div>
+	</div>
 	<h3 class="ui header">Our featured shoots</h3>
 
 	<div class="ui items three column stackable">

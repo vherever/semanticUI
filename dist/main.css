@@ -191,6 +191,53 @@ div.active.step {
 	margin-top: 9px;
 }
 
-.ui.corner.label{
-	overflow:hidden;
+
+
+
+
+/*pure css animation*/
+.rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+ 
+    }  
+ 
+.rotate:hover  
+{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
 }
+
+.ui.list a.header {
+	font-size: 0.9em !important;
+}
+
+.ui.list .item {
+	font-size: 0.9em !important;
+
+}
+
+.ui.list a {
+	font-size: 0.9em !important;
+}
+
+
+/*css pulsing background animation*/
+
+#footer { background: #D6D3D2; 
+  -webkit-animation: pulse 15s infinite alternate; 
+  opacity: 0.8;
+}
+
+@-webkit-keyframes pulse { 50% {background-color: #EBcAE2;} 40% {background-color: #C3eaDC;} 30% {background-color: #a3f0C9;} 20% {background-color: #EEcef7;} 60% {background-color: #F7fFD5;} } 
+
